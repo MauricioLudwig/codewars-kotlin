@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc7501b5-6935-44d5-b3a7-f6f782d07dae" name="Changes" comment="rename file">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kyu7/ShortestWord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kyu7/ShortestWordTest.kt" afterDir="false" />
+    <list default="true" id="cc7501b5-6935-44d5-b3a7-f6f782d07dae" name="Changes" comment="add kyu 7 kata">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kyu7/FixStringCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kyu7/FixStringCaseTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="8kyu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShortestWordTest">
+  <component name="RunManager" selected="JUnit.FixStringCaseTest.shouldTestKata (1)">
     <configuration name="CenturyFromYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars-kotlin" />
       <extension name="coverage">
@@ -74,6 +74,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FixStringCaseTest.shouldTestKata (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars-kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu7" />
+      <option name="MAIN_CLASS_NAME" value="kyu7.FixStringCaseTest" />
+      <option name="METHOD_NAME" value="shouldTestKata(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixStringCaseTest.shouldTestKata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars-kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kyu7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kyu7" />
+      <option name="MAIN_CLASS_NAME" value="kyu7.FixStringCaseTest" />
+      <option name="METHOD_NAME" value="shouldTestKata(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShortestWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars-kotlin" />
       <extension name="coverage">
@@ -84,21 +116,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="kyu7" />
       <option name="MAIN_CLASS_NAME" value="kyu7.ShortestWordTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareNSumKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codewars-kotlin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kyu8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="kyu8" />
-      <option name="MAIN_CLASS_NAME" value="kyu8.SquareNSumKtTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,10 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FixStringCaseTest.shouldTestKata (1)" />
+        <item itemvalue="JUnit.FixStringCaseTest.shouldTestKata" />
         <item itemvalue="JUnit.ShortestWordTest" />
         <item itemvalue="JUnit.CenturyFromYearTest" />
         <item itemvalue="JUnit.SquareNSumTest" />
-        <item itemvalue="JUnit.SquareNSumKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,14 +176,22 @@
       <option name="project" value="LOCAL" />
       <updated>1676683968896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add kyu 7 kata">
+      <created>1676762538367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676762538367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add base project" />
     <MESSAGE value="add kyu 8 kata" />
     <MESSAGE value="rename file" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename file" />
+    <MESSAGE value="add kyu 7 kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kyu 7 kata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,15 +204,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/kyu7/ShortestWordTest.kt</url>
-          <line>8</line>
-          <properties class="kyu7.ShortestWordTest" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
